@@ -21,7 +21,7 @@ griffon.project.dependency.resolution = {
         // flatDir name: "${pluginName}LibDir", dirs: ["${basePath}lib"]
     }
     dependencies {
-        compile('net.sf.jasperreports:jasperreports:4.5.0') {
+        compile('net.sf.jasperreports:jasperreports:4.7.1') {
             excludes 'commons-logging', 'hibernate', 'itext', 'jcommon', 'jfreechart', 'poi',
                      'servlet-api', 'xalan', 'groovy-all', 'js', 'ant', 'jxl'
         }
